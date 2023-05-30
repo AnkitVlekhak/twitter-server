@@ -20,7 +20,7 @@ app.use(cors({ origin: true }))
 dotenv.config();
 
 mongoose
-  .connect(process.env.MONGO_DB, {
+  .connect(""mongodb+srv://ankit-mongo:Le5jtH3rLZDhOC70@cluster0.ffmsigo.mongodb.net/SocialMediaDB?retryWrites=true&w=majority"", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
